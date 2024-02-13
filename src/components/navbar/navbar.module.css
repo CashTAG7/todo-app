@@ -1,0 +1,12 @@
+.container {
+  padding-top: 8px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  color: var(--bgColor);
+  font-weight: bold;
+}
