@@ -152,7 +152,7 @@ export default function Home() {
 
   // handling click outside of the form
   useEffect(() => {
-    const handleOutsideClick = (e: MouseEvent) => {
+    const handleOutsideClick = (e: Event) => {
       if (
         formRef.current &&
         (e.target as Node) &&
