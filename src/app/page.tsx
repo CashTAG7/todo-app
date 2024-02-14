@@ -145,8 +145,12 @@ export default function Home() {
   const filteredTodos = todos.filter((todo) => {
     if (filter === 'all') {
       return true;
-    } else {
+    } else if (filter === 'low' || filter === 'medium' || filter === 'high') {
       return todo.priority === filter;
+    } else if (filter === 'completed') {
+      return todo.completed === true;
+    } else {
+      return todo.completed === false;
     }
   });
 

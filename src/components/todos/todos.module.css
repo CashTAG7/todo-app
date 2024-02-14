@@ -91,7 +91,7 @@
 
 @media screen and (max-width: 768px) {
   .todoTitle {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .todoDes {
@@ -108,7 +108,7 @@
 
 @media screen and (max-width: 640px) {
   .todoTitle {
-    font-size: 16px;
+    font-size: 14px;
   }
 
   .btns {
@@ -121,6 +121,14 @@
 }
 
 @media screen and (max-width: 280px) {
+  .todoTitle {
+    font-size: 12px;
+  }
+
+  .todoDes {
+    font-size: 10px;
+  }
+
   .btns {
     flex-direction: column-reverse;
     align-items: center;

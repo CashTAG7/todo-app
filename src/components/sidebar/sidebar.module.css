@@ -6,6 +6,7 @@
   padding: 32px;
   gap: 16px;
   align-items: flex-start;
+  background-color: var(--softColor);
   color: var(--textColor);
 }
 
@@ -59,7 +60,7 @@
     justify-content: center;
     min-height: fit-content;
     width: auto;
-    gap: 16px;
+    gap: 8px;
   }
 
   .labels {
@@ -69,5 +70,11 @@
 
   .extraText {
     display: none;
+  }
+}
+
+@media screen and (max-width: 280px) {
+  .labels {
+    font-size: 12px;
   }
 }

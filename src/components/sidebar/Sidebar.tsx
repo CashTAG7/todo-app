@@ -7,7 +7,14 @@ type Props = {
   filter: string;
 };
 
-const radioValues = ['all', 'low', 'medium', 'high'];
+const radioValues = [
+  'all',
+  'low',
+  'medium',
+  'high',
+  'incompleted',
+  'completed',
+];
 
 const Sidebar = ({ setFilter, filter }: Props) => {
   return (

@@ -34,6 +34,7 @@
   background-color: var(--softColor);
   position: sticky;
   top: 24px;
+  z-index: 10;
 }
 
 .mainbar {
@@ -63,8 +64,7 @@
 }
 
 @media screen and (max-width: 640px) {
-
-  .todos{
+  .todos {
     margin-top: 24px;
   }
 
