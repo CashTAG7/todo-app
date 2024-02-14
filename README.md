@@ -1,36 +1,63 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# NextJs Todo List App
+
+## Overview
+
+This is a simple Todo List application built using React (ReactJS/NextJS). The app allows users to manage tasks by adding, editing, marking as completed, and deleting them. Tasks have priorities (low, medium, high), and the UI is designed for a clean and user-friendly experience.
+
+## Features
+
+- Display a list of tasks with their respective status (completed or not).
+- Add a new task.
+- Edit an existing task.
+- Mark a task as completed.
+- Delete a task.
+- Stylish and responsive user interface.
+- Task counters for total and completed tasks.
+
+## Bonus Features
+
+- Local storage implementation for persistent tasks.
+- Basic filtering system based on task priority.
+
+## Technical Considerations
+
+- Functional components and React hooks (e.g., useState, useEffect) for state management.
+- Responsive design for optimal user experience.
 
 ## Getting Started
 
-First, run the development server:
+1. Clone the repository:
+
+   ```bash
+   git clone <your_repository_url>
+   ```
+
+2. Install dependencies:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+cd todo-list-app
+npm install
+```
+
+1. Run the application:
+
+```bash
+npm start
 ```
 
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
-
-## Learn More
+## Additional Notes
 
 To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Completed as a task for Qtec Solution Limited.
+- Implemented features showcase problem-solving skills.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Credits
 
-## Deploy on Vercel
+- Developed by [Md. Noman Ebeny Shahid]
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## License
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+This project is licensed under the [MIT License](LICENSE).
