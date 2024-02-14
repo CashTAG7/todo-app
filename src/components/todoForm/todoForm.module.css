@@ -12,7 +12,7 @@
   border-radius: 4px;
   display: flex;
   flex-direction: column;
-  z-index: 10;
+  z-index: 20;
 }
 
 .form input {
