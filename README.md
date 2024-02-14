@@ -39,7 +39,7 @@ cd todo-list-app
 npm install
 ```
 
-1. Run the application:
+3. Run the application:
 
 ```bash
 npm start
