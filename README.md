@@ -56,7 +56,7 @@ To learn more about Next.js, take a look at the following resources:
 
 ## Credits
 
-- Developed by [Md. Noman Ebeny Shahid]
+- Developed by [Noman]
 
 ## License
 
